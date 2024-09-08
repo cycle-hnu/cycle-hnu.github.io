@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yuanshi Han (袁诗涵)
+title: shihan Yuan (袁诗涵)
 
 # Full name (for SEO)
-first_name: Yuanshi
-last_name: Han
+first_name: shihan
+last_name: Yuan
 
 # Username (this should match the folder name)
 authors:
@@ -14,32 +14,29 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Member of the Compilation and Optimization Research Group
 
 # Organizations/Affiliations
 organizations:
-  - name: Hunan University
-    url: ''
+  - name: College of Computer Science and Electronic Engineering, Hunan University
+    url: 'http://csee.hnu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include distributed machine learning and high-performance code optimization.
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - High-performance Code Generation Optimizations
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
+
     - course: MEng in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BSc in Software Engineering
+      institution: Henan University
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -62,7 +59,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'yuanshihan516@hnu.edu.cn'
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
