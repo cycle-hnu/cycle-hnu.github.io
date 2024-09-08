@@ -16,6 +16,7 @@ sections:
           - Grad Students
           - Administration
           - Visitors
+          - Ph.D
           - Master
           - Alumni
       sort_by: Params.last_name
