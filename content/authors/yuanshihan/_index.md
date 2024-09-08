@@ -1,9 +1,9 @@
 ---
 # Display name
-title: shihan Yuan (袁诗涵)
+title: Shihan Yuan (袁诗涵)
 
 # Full name (for SEO)
-first_name: shihan
+first_name: Shihan
 last_name: Yuan
 
 # Username (this should match the folder name)
@@ -31,7 +31,7 @@ interests:
 education:
   courses:
     - course: MEng
-      institution: Massachusetts Institute of Technology
+      institution: Hunan University
       year: 2024 - present
     - course: BSc
       institution: Henan University
@@ -44,7 +44,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'yuanshihan516@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -66,9 +66,8 @@ user_groups:
   - Master
 ---
 
-[Yuanshi Han](https://zuoyanzhang.github.io) is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+[Shihan Yuan](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 ### Publications
-* 1111
+* 1
