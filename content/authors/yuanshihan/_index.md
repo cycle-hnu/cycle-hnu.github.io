@@ -18,8 +18,8 @@ role: Member of the Compilation and Optimization Research Group
 
 # Organizations/Affiliations
 organizations:
-  - name: College of Computer Science and Electronic Engineering, Hunan University
-    url: 'http://csee.hnu.edu.cn/'
+  - name: Hunan University
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed machine learning and high-performance code optimization.
@@ -30,7 +30,6 @@ interests:
 
 education:
   courses:
-
     - course: MEng in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2009
@@ -59,7 +58,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'yuanshihan516@hnu.edu.cn'
+email: ''
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
