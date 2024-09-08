@@ -30,10 +30,10 @@ interests:
 
 education:
   courses:
-    - course: MEng in Artificial Intelligence
+    - course: MEng
       institution: Massachusetts Institute of Technology
       year: 2024 - present
-    - course: BSc in Software Engineering
+    - course: BSc
       institution: Henan University
       year: 2020-2024
 
