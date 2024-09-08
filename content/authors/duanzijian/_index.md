@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Zijian Duan (段子健)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Zijian
+last_name: Duan
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - duanzijian
 
 # Is this the primary user of the site?
 superuser: false
@@ -66,8 +66,6 @@ user_groups:
   - Master
 ---
 
-[Shihan Yuan](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
+Zijian Duan is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
 
 
-### Publications
-* 1
