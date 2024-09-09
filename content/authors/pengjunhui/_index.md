@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Junhui Peng (彭俊辉)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Junhui
+last_name: Peng
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - pengjunhui
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,11 +22,11 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed machine learning and high-performance code optimization.
+bio: My research interests include distributed operator automatic generation and high-level synthesis.
 
 interests:
-  - Artificial Intelligence
-  - High-performance Code Generation Optimizations
+  - Distributed Operator Automatic Generation
+  - High-Level Synthesis
 
 education:
   courses:
@@ -44,13 +44,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: 'pengjh0111@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,7 +67,3 @@ user_groups:
 ---
 
 Junhui Peng is a member of the compiler optimization team at the College of Information Science and Engineering, Hunan University, and a first-year graduate student. His research interests include operator automatic generation and high-level synthesis, with a current focus on operator automatic generation for neuromorphic chips.
-
-
-### Publications
-* 1
