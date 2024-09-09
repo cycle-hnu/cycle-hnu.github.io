@@ -69,5 +69,4 @@ user_groups:
 Shihan Yuan is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
 
 
-### Publications
-* 1
+
