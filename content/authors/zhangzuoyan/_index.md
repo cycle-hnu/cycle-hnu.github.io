@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed machine learning and high-performance code optimization.
+bio: My research interests span programming languages and software engineering.
 
 interests:
   - Floating-point Error Detection
@@ -45,13 +45,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: 'zyanz@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=m6lSKEAAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/zuoyanzhang
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,4 +71,17 @@ user_groups:
 
 
 ### Publications
-* 1
+
+### *2024*
+<div style="margin-bottom: 20px;">
+    <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C2]</div>
+        <div style="flex: 1;">
+            Arfa: an Agile Regime-based Floating-point Optimization Approach for Rounding Errors<br>
+            <span style="color: #333; font-size: 0.9em; font-weight: lighter;">
+                Jinchen Xu#, Mengqi Cui#, Fei Li, <strong>Zuoyan Zhang</strong>, Hongru Yang, Bei Zhou*, Jie Zhao* <br>
+                <em>In Proceedings of the 33rd ACM International Symposium on Software Testing and Analysis (ISSTA 2024) Sep 2024</em>
+            </span>
+        </div>
+    </div>
+</div>
