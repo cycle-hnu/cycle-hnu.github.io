@@ -25,8 +25,8 @@ organizations:
 bio: My research interests include distributed machine learning and high-performance code optimization.
 
 interests:
-  - Artificial Intelligence
-  - High-performance Code Generation Optimizations
+  - Computer Graphics 
+  - High Performace Complier Optimization
 
 education:
   courses:

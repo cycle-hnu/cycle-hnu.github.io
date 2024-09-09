@@ -31,12 +31,15 @@ interests:
 
 education:
   courses:
-    - course: MEng
+    - course: PhD 
       institution: Hunan University
       year: 2024 - present
+    - course: MEng
+      institution: Information Engineering University
+      year: 2021 - 2024
     - course: BSc
-      institution: Henan University
-      year: 2020-2024
+      institution: Henan University of Technology
+      year: 2017 - 2021
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -87,7 +90,7 @@ user_groups:
 
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
-        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C2]</div>
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C1]</div>
         <div style="flex: 1;">
             Eiffel: Inferring Input Ranges of Significant Floating-point Errors via Polynomial Extrapolation<br>
             <span style="color: #333; font-size: 0.9em; font-weight: lighter;">
@@ -96,11 +99,11 @@ user_groups:
             </span>
         </div>
     </div>
-</div>
+</div>s
 
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
-        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[C2]</div>
+        <div style="min-width: 40px; text-align: right; margin-right: 10px;">[J1]</div>
         <div style="flex: 1;">
             Hierarchical search algorithm for error detection in floating-point arithmetic expressions<br>
             <span style="color: #333; font-size: 0.9em; font-weight: lighter;">
