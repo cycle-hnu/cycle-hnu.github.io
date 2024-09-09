@@ -35,7 +35,7 @@ education:
       year: 2024 - present
     - course: BSc
       institution: Hunan University of Technology and Business
-      year: 2020-2024
+      year: 2020 - 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
