@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Yuye Shang (尚玉叶)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Yuye
+last_name: Shang
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - shangyuye
 
 # Is this the primary user of the site?
 superuser: false
@@ -50,7 +50,7 @@ social:
     link: 'shangyuye@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
     link: https://github.com/Shirely351
@@ -69,7 +69,7 @@ user_groups:
   - Ph.D
 ---
 
-[Yuye Shang](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
+[Yuye Shang](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team member,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.
 
 
 ### Publications
