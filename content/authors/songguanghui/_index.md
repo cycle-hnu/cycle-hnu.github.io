@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Guanghui Song (宋广辉)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Guanghui
+last_name: Song
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - songguanghui
 
 # Is this the primary user of the site?
 superuser: false
@@ -63,7 +63,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master
+  - Ph.D
 ---
 
 [Shihan Yuan](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
