@@ -99,7 +99,7 @@ user_groups:
             </span>
         </div>
     </div>
-</div>s
+</div>
 
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
