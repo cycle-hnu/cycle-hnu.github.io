@@ -78,7 +78,7 @@ user_groups:
 
 
 ### Publications
- - This page collects a(n incomplete) list of Jie Zhao's publications. Posters and workshp papers without formal proceedings are not recorded. More information is available at Google Scholar and dblp.
+    (This page collects a(n incomplete) list of Jie Zhao's publications. Posters and workshp papers without formal proceedings are not recorded. More information is available at [Google Scholar](https://scholar.google.com/citations?hl=en&user=9EIFPO4AAAAJ) and dblp.)
 
 <div style="margin-bottom: 20px;">
     <div style="color: #8B0000; font-weight: bold; margin-bottom: 5px; display: flex;">
