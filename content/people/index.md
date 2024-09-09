@@ -15,7 +15,6 @@ sections:
           - Researchers
           - Grad Students
           - Administration
-          - Visitors
           - Ph.D
           - Master
           - Undergraduate
