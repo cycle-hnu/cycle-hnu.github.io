@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'caorn@hnu.edu.cn'
+    link: 'GZDeng@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: 
