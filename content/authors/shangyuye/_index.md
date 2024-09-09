@@ -32,7 +32,7 @@ education:
   courses:
     - course: PhD 
       institution: Hunan University
-      year: 2023 - present
+      year: 2024 - present
     - course: MEng
       institution: Nanjing University of Aeronautics and Astronautics
       year: 2020 - 2023
@@ -69,8 +69,5 @@ user_groups:
   - Ph.D
 ---
 
-[Yuye Shang](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team member,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.
+Yuye Shang is information science and engineering college of hunan university compiler optimization team member,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.
 
-
-### Publications
-* 1
