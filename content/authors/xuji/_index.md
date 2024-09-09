@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Ji Xu (徐吉)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Ji
+last_name: Xu
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - xuji
 
 # Is this the primary user of the site?
 superuser: false
@@ -25,17 +25,14 @@ organizations:
 bio: My research interests include distributed machine learning and high-performance code optimization.
 
 interests:
-  - Artificial Intelligence
-  - High-performance Code Generation Optimizations
+  - Deep Learning
+  - Model Accelerated Inference and Training
 
 education:
   courses:
-    - course: MEng
-      institution: Hunan University
-      year: 2024 - present
     - course: BSc
-      institution: Henan University
-      year: 2020-2024
+      institution: Hunan University
+      year: 2021- present
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,13 +41,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: '1794174816@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,11 +60,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master
+  - Undergraduate
 ---
 
-Shihan Yuan is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
+Xu Ji is a member of the Information Science Compilation Research Group at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.
 
-
-### Publications
-* 1
