@@ -18,7 +18,7 @@ sections:
           - Visitors
           - Ph.D
           - Master
-          - Alumni
+          - Undergraduate
       sort_by: Params.last_name
       sort_ascending: true
     design:
