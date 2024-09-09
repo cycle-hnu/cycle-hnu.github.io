@@ -26,7 +26,7 @@ bio: My research interests include distributed machine learning and high-perform
 
 interests:
   - Artificial Intelligence
-  - High-performance Code Generation Optimizations
+  - Fully Homomorphic Encryption
 
 education:
   courses:
@@ -34,7 +34,7 @@ education:
       institution: Hunan University
       year: 2024 - present
     - course: BSc
-      institution: Henan University
+      institution: Hunan University of Science and Technology
       year: 2020-2024
 
 # Social/Academic Networking
@@ -44,13 +44,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: 'duanzj1@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,6 +66,5 @@ user_groups:
   - Master
 ---
 
-Zijian Duan is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
-
+Zijian Duan is information science and engineering college of Hunan University compiler optimization team members, graduate student in grade one. His research interests include deep learning, fully homomorphic encryption compiler and llm.
 

@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Shihan Yuan (袁诗涵)
+title: Ke Yang (杨可)
 
 # Full name (for SEO)
-first_name: Shihan
-last_name: Yuan
+first_name: Ke
+last_name: Yang
 
 # Username (this should match the folder name)
 authors:
-  - yuanshihan
+  - yangke
 
 # Is this the primary user of the site?
 superuser: false
@@ -25,8 +25,8 @@ organizations:
 bio: My research interests include distributed machine learning and high-performance code optimization.
 
 interests:
-  - Artificial Intelligence
-  - High-performance Code Generation Optimizations
+  - Neuromorphic Chips
+  - AI Operator Generation
 
 education:
   courses:
@@ -34,7 +34,7 @@ education:
       institution: Hunan University
       year: 2024 - present
     - course: BSc
-      institution: Henan University
+      institution: Hunan University of Technology and Business
       year: 2020-2024
 
 # Social/Academic Networking
@@ -44,13 +44,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: 'yangke1@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,8 +66,5 @@ user_groups:
   - Master
 ---
 
-[Shihan Yuan](https://zuoyanzhang.github.io) is information science and engineering college of hunan university compiler optimization team members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
+Ke Yang is Information Science and Engineering College of Hunan University compiler optimization team member. And he obtained a Bachelor's degree from the Computer Science of school at Hunan University Of Technology and Business. His research interests include machine learning, high-performance compiling optimization,current research in Neuromorphic Chips and AI Operator Generation.
 
-
-### Publications
-* 1
