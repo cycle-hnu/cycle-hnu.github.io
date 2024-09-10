@@ -37,7 +37,7 @@ publication_types: ['paper-conference']
 publication: In *Proceedings of the 33rd ACM International Symposium on Software Testing and Analysis*
 publication_short: In *ISSTA*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Recent approaches present the concept of regimes to partition the input domain D of a floating-point expression f_e, rewriting it in each regime where f_e shows larger errors such that the accuracy across D can be improved. These methods, however, fall short of both inferring regimes and searching rewrite substitutions.In this paper, we introduce a rewriting system called Arfa to address these issues. Given an f_e and its D, Arfa first seeks a rewrite substitution f_o that has lower errors across D and next plots the error distribution of f_o. The boundary line of this plot is then sketched, based on which an effective regime inference algorithm applicable to both numerically stable and unstable programs is implemented. For each regime where f_o should be rewritten, Arfa first normalizes f_o  by considering the regime’s properties and next generates an incomplete set of f_o ’s rewrite candidates, which are prioritized according to the number of floating-point operators. Finally, Arfa selects the best rewrite substitution by empirically inspecting the errors of several top ranked rewrite candidates, with enhancing precision also considered as a complementary strategy. This search heuristic avoids the need to establish a cost model used by prior work.We conduct experiments using 60 benchmarks, including 56 FPbench examples and four real-life programs. The results demonstrate that Arfa can reduce both maximum and average errors of the original expressions by 4.73 and 2.08 bits on average, and up to 33 and 16 bits, respectively; the experimental outcomes also show that Arfa exhibits lower errors, sometimes to a significant degree, than Herbie, PSAT (a global optimization framework that rewrites numerical programs via prioritized stochastic algebraic transformations), Daisy, and Regina.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -61,12 +61,7 @@ url_slides: ''
 url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_video: 'https://youtube.com'
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
