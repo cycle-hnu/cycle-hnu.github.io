@@ -22,11 +22,11 @@ author_notes:
   - 'Corresponding author'
   - 'Corresponding author'
 
-date: '2024-09-01T00:00:00Z'
+date: '2024-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-09-01T00:00:00Z'
+publishDate: '2024-07-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -53,13 +53,13 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4511969'
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/yuanyuanxia/exprAuto'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 
 
