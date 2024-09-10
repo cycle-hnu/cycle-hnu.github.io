@@ -55,14 +55,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4511969'
+url_pdf: 'https://www.computer.org/csdl/proceedings-article/ase/2023/299600b441/1SBGuFStnZ6'
 url_code: 'https://github.com/zuoyanzhang/Maxfpeed'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 
 
