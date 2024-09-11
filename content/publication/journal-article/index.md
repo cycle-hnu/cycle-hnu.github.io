@@ -1,16 +1,31 @@
 ---
-title: "An example journal article"
+title: 'Hierarchical search algorithm for error detection in floating-point arithmetic expressions'
+
+# Authors
+# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
+# and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
-- Robert Ford
+  - Zuoyan Zhang
+  - Jinchen Xu
+  - Jiangwei Hao
+  - Yang Qu
+  - Haotian He
+  - Bei Zhou
+# Author notes (optional)
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Information Engineering University'
+  - 'Information Engineering University'
+  - 'Information Engineering University'
+  - 'Information Engineering University'
+  - 'Corresponding author'
+
+date: '2023-11-01T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: '2023-11-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,10 +33,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*The Journal of Supercomputing"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Scientific and engineering applications rely on floating-point arithmetic to approximate real numbers. Due to the inherent rounding errors in floating-point numbers, error propagation during calculations can accumulate and lead to serious errors that may compromise the safety and reliability of the program. In theory, the most accurate method of error detection is to exhaustively search all possible floating-point inputs, but this is not feasible in practice due to the huge search space involved. Effectively and efficiently detecting maximum floating-point errors has been a challenge. To address this challenge, we design and implement an error detection tool for floating-point arithmetic expressions called HSED. It leverages modified mantissas under double precision floating-point types to simulate hierarchical searches from either half or single precision to double precision. Experimental results show that for 32 single-parameter arithmetic expressions in the FPBench benchmark test set, the error detection effects and performance of HSED are significantly better than the state-of-the-art error detection tools Herbie, S3FP and ATOMU. HSED outperforms Herbie, Herbie+, S3FP and ATOMU in 24, 19, 27 and 25 cases, respectively. The average time taken by Herbie, Herbie+, and S3FP is 1.82, 11.20, and 129.15 times longer than HSED, respectively.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
