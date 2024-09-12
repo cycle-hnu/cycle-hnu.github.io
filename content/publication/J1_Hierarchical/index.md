@@ -6,23 +6,19 @@ title: 'Hierarchical search algorithm for error detection in floating-point arit
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Zuoyan Zhang
-  - Bei Zhou
-  - Jiangwei Hao
-  - Hongru Yang
-  - Mengqi Cui
-  - Yuchang Zhou
-  - Guanghui Song
-  - Fei Li
   - Jinchen Xu
-  - Jie Zhao
+  - Jiangwei Hao
+  - Yang Qu
+  - Haotian He
+  - Bei Zhou
 # Author notes (optional)
 author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
   - 'Information Engineering University'
   - 'Information Engineering University'
   - 'Information Engineering University'
   - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Corresponding author'
   - 'Corresponding author'
 
 date: '2023-11-01T00:00:00Z'
@@ -34,29 +30,26 @@ publishDate: '2023-11-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering*
-publication_short: In *ASE*
+publication: "*The Journal of Supercomputing"
+publication_short: ""
 
-abstract: Existing search heuristics used to find input values that result in significant floating-point (FP) errors or small ranges that cover them are accompanied by severe constraints, complicating their implementation and restricting their general applicability. This paper introduces an error analysis tool called Eiffel to infer error-inducing input ranges instead of searching them. Given an FP expression with its domain D , Eiffel first constructs an error data set by sampling values across a smaller domain R and assembles these data into clusters. If more than two clusters are formed, Eiffel derives polynomial curves that best fit the bound coordinates of the error-inducing ranges in R , extrapolating them to infer all target ranges of D and reporting the maximal error. Otherwise, Eiffel simply returns the largest error across R . Experimental results show that Eiffel exhibits a broader applicability than Atomu and S^3 FP by successfully detecting the errors of all 70 considered benchmarks while the two baselines only report errors for part of them. By taking as input the inferred ranges of Eiffel, Herbie obtains an average accuracy improvement of 3.35 bits and up to 53.3 bits.
+abstract: Scientific and engineering applications rely on floating-point arithmetic to approximate real numbers. Due to the inherent rounding errors in floating-point numbers, error propagation during calculations can accumulate and lead to serious errors that may compromise the safety and reliability of the program. In theory, the most accurate method of error detection is to exhaustively search all possible floating-point inputs, but this is not feasible in practice due to the huge search space involved. Effectively and efficiently detecting maximum floating-point errors has been a challenge. To address this challenge, we design and implement an error detection tool for floating-point arithmetic expressions called HSED. It leverages modified mantissas under double precision floating-point types to simulate hierarchical searches from either half or single precision to double precision. Experimental results show that for 32 single-parameter arithmetic expressions in the FPBench benchmark test set, the error detection effects and performance of HSED are significantly better than the state-of-the-art error detection tools Herbie, S3FP and ATOMU. HSED outperforms Herbie, Herbie+, S3FP and ATOMU in 24, 19, 27 and 25 cases, respectively. The average time taken by Herbie, Herbie+, and S3FP is 1.82, 11.20, and 129.15 times longer than HSED, respectively.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags:
+- Source Themes
+featured: false
 
-# Display this page in the Featured widget?
-featured: true
-
-# Custom links (uncomment lines below)
 # links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: 'https://www.computer.org/csdl/proceedings-article/ase/2023/299600b441/1SBGuFStnZ6'
-url_code: 'https://github.com/zuoyanzhang/Maxfpeed'
+# - name: ""
+#   url: ""
+url_pdf: https://dl.acm.org/doi/10.1007/s11227-023-05523-6
+url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -64,15 +57,15 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -83,11 +76,11 @@ slides: example
 ---
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
+Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
