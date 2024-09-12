@@ -94,7 +94,7 @@ user_groups:
         <div style="flex: 1;">
             Eiffel: Inferring Input Ranges of Significant Floating-point Errors via Polynomial Extrapolation<br>
             <span style="color: #333; font-size: 0.9em; font-weight: lighter;">
-                Zuoyan Zhang, Bei Zhou, Jiangwei Hao, Hongru Yang, Mengqi Cui, Yuchang Zhou, <strong>Guanghui Song</strong>, Fei Li, Jinchen Xu*, Jie Zhao* <br>
+                Zuoyan Zhang, Bei Zhou, Jiangwei Hao, Hongru Yang, Mengqi Cui, Yuchang Zhou, <strong>Guanghui Song</strong>, Fei Li, Jinchen Xu, Jie Zhao~ <br>
                 <em>In Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023) Sep 2023 </em>
             </span>
         </div>
