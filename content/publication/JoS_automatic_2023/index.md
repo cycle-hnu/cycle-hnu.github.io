@@ -1,20 +1,19 @@
 ---
-title: 'Hierarchical search algorithm for error detection in floating-point arithmetic expressions'
+title: 'Automatic Mixed Precision Optimization for Stencil Computation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zuoyan Zhang
+  - Guanghui Song
+  - Shaozhong Guo
+  - Jie Zhao
+  - Xiaohan Tao
+  - Fei Li
   - Jinchen Xu
-  - Jiangwei Hao
-  - Yang Qu
-  - Haotian He
-  - Bei Zhou
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - 'Information Engineering University'
   - 'Information Engineering University'
   - 'Information Engineering University'
   - 'Information Engineering University'
@@ -33,10 +32,10 @@ publishDate: '2023-11-01T00:00:00Z'
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*The Journal of Supercomputing"
+publication: "*The Journal of Software"
 publication_short: ""
 
-abstract: Scientific and engineering applications rely on floating-point arithmetic to approximate real numbers. Due to the inherent rounding errors in floating-point numbers, error propagation during calculations can accumulate and lead to serious errors that may compromise the safety and reliability of the program. In theory, the most accurate method of error detection is to exhaustively search all possible floating-point inputs, but this is not feasible in practice due to the huge search space involved. Effectively and efficiently detecting maximum floating-point errors has been a challenge. To address this challenge, we design and implement an error detection tool for floating-point arithmetic expressions called HSED. It leverages modified mantissas under double precision floating-point types to simulate hierarchical searches from either half or single precision to double precision. Experimental results show that for 32 single-parameter arithmetic expressions in the FPBench benchmark test set, the error detection effects and performance of HSED are significantly better than the state-of-the-art error detection tools Herbie, S3FP and ATOMU. HSED outperforms Herbie, Herbie+, S3FP and ATOMU in 24, 19, 27 and 25 cases, respectively. The average time taken by Herbie, Herbie+, and S3FP is 1.82, 11.20, and 129.15 times longer than HSED, respectively.
+abstract: Mixed precision has made many advances in deep learning and precision tuning and optimization. Extensive research shows that mixed precision optimization for stencil computation is challenging. Moreover, the research achievements secured by the polyhedral model in the field of automatic parallelization indicate that the model provides a good mathematical abstraction for loop nesting, on the basis of which loop transformations can be performed. This study designs and implements an automatic mixed precision optimizer for Stencil computation on the basis of polyhedral compilation technology. By performing iterative domain partitioning, data flow analysis, and scheduling tree transformation on the intermediate representation layers, this study implements the source-to-source automatic generation of mixed precision codes for Stencil computation for the first time. The experiments demonstrate that the code after automatic mixed precision optimization can give full play to its parallelism potential and improve the performance of the program by reducing precision redundancy. With high-precision computing as the benchmark, the maximum speedup is 1.76, and the geometric average speedup is 1.15 on the x86 architecture; on the new-generation Sunway architecture, the maximum speedup is 1.64, and the geometric average speedup is 1.20.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -48,8 +47,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://dl.acm.org/doi/10.1007/s11227-023-05523-6'
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: 'https://jos.org.cn/jos/article/abstract/6757'
+url_code: 'https://github.com/sheenisme/lnlamp'
 url_dataset: ''
 url_poster: ''
 url_project: ''
