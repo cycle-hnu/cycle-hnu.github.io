@@ -41,7 +41,6 @@ abstract: Fully exploiting the computing power of an accelerator specialized for
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: []
-s
 # Display this page in the Featured widget?
 featured: true
 
