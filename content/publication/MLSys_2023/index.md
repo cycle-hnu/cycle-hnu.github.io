@@ -1,29 +1,42 @@
 ---
-title: 'Eiffel: Inferring Input Ranges of Significant Floating-point Errors via Polynomial Extrapolation'
+title: 'SIRIUS: Harvesting Whole-Program Optimization Opportunities for DNNs'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zuoyan Zhang
-  - Bei Zhou
-  - Jiangwei Hao
-  - Hongru Yang
-  - Mengqi Cui
-  - Yuchang Zhou
-  - Guanghui Song
-  - Fei Li
-  - Jinchen Xu
+  - Yijin Li
+  - Jiacheng Zhao
+  - Qianqi Sun
+  - Haohui Mai
+  - Lei Chen
+  - Wanlu Cao
+  - Yanfan Chen
+  - Zhicheng Li
+  - Ying Liu
+  - Xinyuan Zhang
+  - Xiyu Shi
   - Jie Zhao
+  - Jingling Xue
+  - Huimin Cui
+  - Xiaobing Feng
 # Author notes (optional)
 author_notes:
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Corresponding author'
-  - 'Corresponding author'
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Institute of Computing Technology'
+  - 'Hengmuxing Technologies'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
+  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
+  - 'University of New South Wales'
+  - 'Institute of Computing Technology'
+  - 'Institute of Computing Technology'
 
 date: '2023-11-01T00:00:00Z'
 doi: ''
@@ -37,10 +50,10 @@ publishDate: '2023-11-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering*
-publication_short: In *ASE*
+publication: In *In Proceedings of Machine Learning and Systems*
+publication_short: In *MLSys*
 
-abstract: Existing search heuristics used to find input values that result in significant floating-point (FP) errors or small ranges that cover them are accompanied by severe constraints, complicating their implementation and restricting their general applicability. This paper introduces an error analysis tool called Eiffel to infer error-inducing input ranges instead of searching them. Given an FP expression with its domain D , Eiffel first constructs an error data set by sampling values across a smaller domain R and assembles these data into clusters. If more than two clusters are formed, Eiffel derives polynomial curves that best fit the bound coordinates of the error-inducing ranges in R , extrapolating them to infer all target ranges of D and reporting the maximal error. Otherwise, Eiffel simply returns the largest error across R . Experimental results show that Eiffel exhibits a broader applicability than Atomu and S^3 FP by successfully detecting the errors of all 70 considered benchmarks while the two baselines only report errors for part of them. By taking as input the inferred ranges of Eiffel, Herbie obtains an average accuracy improvement of 3.35 bits and up to 53.3 bits.
+abstract: As emerging applications are rapidly moving to accelerators, a greatdeal of research has been proposed to improve the performance of the accelerators. For the AI applications, fruitful software-driven research has been focused on proposing new programming languages, new kernel fusion heuristics,new optimization tuning approaches, and new software execution engines. However, how to leverage classical compiler optimizations to generate efficient code is an overlooked aspect of performance. In this paper, we propose a whole-program analysis and optimization compiler framework, SIRIUS, to uniformly model the host and kernel computations in a unified polyhedral representation and,further, seek maximal fusion opportunities from the global view so that the fused kernel can benefit from classical optimizations. Evaluations over representative DNN models demonstrate that SIRIUS can achieve up to 11.98x speedup over TensorRT, and 154.84x speedup over TensorFlow. In particular, for BERT, SIRIUS can achieve 1.46x speedup over TensorRT.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -55,8 +68,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.computer.org/csdl/proceedings-article/ase/2023/299600b441/1SBGuFStnZ6'
-url_code: 'https://github.com/zuoyanzhang/Maxfpeed'
+url_pdf: 'https://proceedings.mlsys.org/paper_files/paper/2023/file/3e4e24f7e055320fa54c03f6e816775f-Paper-mlsys2023.pdf'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
