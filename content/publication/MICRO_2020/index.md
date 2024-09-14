@@ -1,48 +1,24 @@
 ---
-title: 'SIRIUS: Harvesting Whole-Program Optimization Opportunities for DNNs'
+title: 'Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yijin Li
-  - Jiacheng Zhao
-  - Qianqi Sun
-  - Haohui Mai
-  - Lei Chen
-  - Wanlu Cao
-  - Yanfan Chen
-  - Zhicheng Li
-  - Ying Liu
-  - Xinyuan Zhang
-  - Xiyu Shi
   - Jie Zhao
-  - Jingling Xue
-  - Huimin Cui
-  - Xiaobing Feng
+  - Peng Di
+
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Institute of Computing Technology'
-  - 'Hengmuxing Technologies'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
   - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'University of New South Wales'
-  - 'Institute of Computing Technology'
-  - 'Institute of Computing Technology'
+  - 'Huawei Technologies Co.'
 
-date: '2023-11-01T00:00:00Z'
+
+date: '2020-10-17T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-11-01T00:00:00Z'
+publishDate: '2020-10-17T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -50,10 +26,10 @@ publishDate: '2023-11-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of Machine Learning and Systems*
-publication_short: In *MLSys*
+publication: In *Proceedings of the 53rd IEEE/ACM International Symposium on Microarchitecture*
+publication_short: In *MICRO*
 
-abstract: As emerging applications are rapidly moving to accelerators, a greatdeal of research has been proposed to improve the performance of the accelerators. For the AI applications, fruitful software-driven research has been focused on proposing new programming languages, new kernel fusion heuristics,new optimization tuning approaches, and new software execution engines. However, how to leverage classical compiler optimizations to generate efficient code is an overlooked aspect of performance. In this paper, we propose a whole-program analysis and optimization compiler framework, SIRIUS, to uniformly model the host and kernel computations in a unified polyhedral representation and,further, seek maximal fusion opportunities from the global view so that the fused kernel can benefit from classical optimizations. Evaluations over representative DNN models demonstrate that SIRIUS can achieve up to 11.98x speedup over TensorRT, and 154.84x speedup over TensorFlow. In particular, for BERT, SIRIUS can achieve 1.46x speedup over TensorRT.
+abstract: Optimizing compilers exploit the memory hierarchy using loop tiling and fusion, but these two transformations usually interfere with each other due to the oversight of transformations on data in memories. We present a novel composition of loop tiling and fusion in this paper. Unlike existing tiling-after-fusion algorithms that only transform computation spaces, our approach first applies rectangular/parallelogram tiling to live-out computation spaces for fitting the memory hierarchy, followed by the computation of the memory footprints required by each tile. The upwards exposed data extracted from the memory footprints are used to determine the tile shapes of intermediate computation spaces, allowing the construction of arbitrary tile shapes. Finally, our technique implements a post-tiling fusion strategy for maximizing data locality without losing tilability or parallelism of live-out computation spaces, thereby enabling storage reduction and reuse, and optimizing the memory hierarchy. We demonstrate that our approach can achieve superior performance on both CPU and GPU architectures over the state of the art by experimenting on 11 benchmarks extracted from numerous domains including neural networks, image processing, sparse matrix computation and linear algebra. Also, the results of the ResNet-50 model on an AI accelerator show that our approach can obtain 16% performance improvement.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -68,12 +44,12 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://proceedings.mlsys.org/paper_files/paper/2023/file/3e4e24f7e055320fa54c03f6e816775f-Paper-mlsys2023.pdf'
+url_pdf: 'https://ieeexplore.ieee.org/document/9251965/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://yaozhujia.github.io/assets/pdf/micro2020-presentation.pdf'
 url_source: ''
 url_video: ''
 
