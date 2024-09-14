@@ -9,11 +9,17 @@
 
 <!-- 初始化 FullCalendar -->
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: 'dayGridMonth' // 这里可以调整默认视图
+    document.addEventListener('DOMContentLoaded', function() {
+      // 确保 FullCalendar 在此时已定义
+      console.log('FullCalendar:', typeof FullCalendar); // 输出 FullCalendar 的类型以检查它是否加载
+      if (typeof FullCalendar !== 'undefined') {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth' // 这里可以调整默认视图
+        });
+        calendar.render();
+      } else {
+        console.error('FullCalendar 未定义，可能是 CDN 资源未正确加载。');
+      }
     });
-    calendar.render();
-  });
-</script>
+  </script>
