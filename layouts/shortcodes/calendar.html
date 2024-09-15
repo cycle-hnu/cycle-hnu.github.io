@@ -1,48 +1,102 @@
-<!-- 引入 FullCalendar 的 CSS -->
-
-<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet" />
-
-
-<!-- 引入 FullCalendar 的 JS -->
-<script src="
-https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
-"></script>
-
-
-<!-- 这里是显示日历的容器 -->
-<div id="calendar" style="width: max-content;"></div>
-
-<!-- 初始化 FullCalendar -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<script src='../../static/dist/index.global.js'></script>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // 确保 FullCalendar 在此时已定义
-      console.log('FullCalendar:', typeof FullCalendar); // 输出 FullCalendar 的类型以检查它是否加载
-      if (typeof FullCalendar !== 'undefined') {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth', // 这里可以调整默认视图
-          plugins: [ 'dayGrid', 'timeGrid' ], // 使用 dayGrid 和 timeGrid 插件
-          events: [
-            {
-              title: '会议',
-              start: '2024-09-20', // 事件的开始日期
-              end: '2024-09-22', // 可选的结束日期
-              description: '一个重要的会议'
-            },
-            {
-              title: '工作坊',
-              start: '2024-09-25T10:00:00', // 具体的开始时间
-              description: '学习新技能的工作坊'
-            }
-          ],
-          eventClick: function(info) {
-            alert('Event: ' + info.event.title);
-            alert('Description: ' + info.event.extendedProps.description);
-          }
-        });
-        calendar.render();
-      } else {
-        console.error('FullCalendar 未定义，可能是 CDN 资源未正确加载。');
-      }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+      },
+      // initialDate: '2023-01-12',
+      navLinks: true, // can click day/week names to navigate views
+      businessHours: true, // display business hours
+      editable: true,
+      selectable: true,
+      events: [
+        {
+          title: 'Business Lunch',
+          start: '2024-09-03T13:00:00',
+          constraint: 'businessHours'
+        },
+        {
+          title: 'Meeting',
+          start: '2023-01-13T11:00:00',
+          constraint: 'availableForMeeting', // defined below
+          color: '#257e4a'
+        },
+        {
+          title: 'Conference',
+          start: '2023-01-18',
+          end: '2023-01-20'
+        },
+        {
+          title: 'Party',
+          start: '2023-01-29T20:00:00'
+        },
+
+        // areas where "Meeting" must be dropped
+        {
+          groupId: 'availableForMeeting',
+          start: '2023-01-11T10:00:00',
+          end: '2023-01-11T16:00:00',
+          display: 'background'
+        },
+        {
+          groupId: 'availableForMeeting',
+          start: '2024-09-13T10:00:00',
+          end: '2024-09-18T16:00:00',
+          display: 'background'
+        },
+
+        // red areas where no events can be dropped
+        {
+          start: '2023-01-24',
+          end: '2023-01-28',
+          overlap: false,
+          display: 'background',
+          color: '#ff9f89'
+        },
+        {
+          start: '2023-01-06',
+          end: '2023-01-08',
+          overlap: false,
+          display: 'background',
+          color: '#ff9f89'
+        }
+      ]
     });
-  </script>
+
+    calendar.render();
+  });
+
+</script>
+<style>
+
+  body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+</style>
+</head>
+<body>
+
+  <div id='calendar'></div>
+
+</body>
+</html>
+
