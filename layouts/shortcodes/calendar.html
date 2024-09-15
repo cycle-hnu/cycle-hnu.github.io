@@ -9,18 +9,23 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
             // plugins: [dayGridPlugin],
             initialView: 'dayGridMonth',
+            dayMaxEvents: true, 
             events: [
               { 
                 title: '维也纳出差', 
                 start: '2024-09-15', 
-                end: '2024-09-22', 
-                color: '#257e4a'
+                end: '2024-09-22'
               },
               {
                 title: '中秋休息', 
                 start: '2024-09-15', 
                 end: '2024-09-18'
-              }
+              },
+              {
+                title: '组会',
+                start: '2024-09-20T08:00:00',
+                end: '2024-09-20T10:00:00'
+              },
             ]
         });
         calendar.render();
@@ -36,7 +41,7 @@
       }
     
       #calendar {
-        width: auto;
+        width: 650px;
         margin: 0 auto;
       }
     
