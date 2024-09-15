@@ -10,7 +10,7 @@ https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
 
 
 <!-- 这里是显示日历的容器 -->
-<div id="calendar"></div>
+<div id="calendar" style="width: max-content;"></div>
 
 <!-- 初始化 FullCalendar -->
 <script>
@@ -20,7 +20,25 @@ https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
       if (typeof FullCalendar !== 'undefined') {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth' // 这里可以调整默认视图
+          initialView: 'dayGridMonth', // 这里可以调整默认视图
+          plugins: [ 'dayGrid', 'timeGrid' ], // 使用 dayGrid 和 timeGrid 插件
+          events: [
+            {
+              title: '会议',
+              start: '2024-09-20', // 事件的开始日期
+              end: '2024-09-22', // 可选的结束日期
+              description: '一个重要的会议'
+            },
+            {
+              title: '工作坊',
+              start: '2024-09-25T10:00:00', // 具体的开始时间
+              description: '学习新技能的工作坊'
+            }
+          ],
+          eventClick: function(info) {
+            alert('Event: ' + info.event.title);
+            alert('Description: ' + info.event.extendedProps.description);
+          }
         });
         calendar.render();
       } else {
