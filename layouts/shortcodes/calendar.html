@@ -10,11 +10,16 @@
             // plugins: [dayGridPlugin],
             initialView: 'dayGridMonth',
             events: [
-              { // this object will be "parsed" into an Event Object
-                title: '维也纳出差', // a property!
-                start: '2024-09-15', // a property!
-                end: '2024-09-22', // a property! ** see important note below about 'end' **
+              { 
+                title: '维也纳出差', 
+                start: '2024-09-15', 
+                end: '2024-09-22', 
                 color: '#257e4a'
+              },
+              {
+                title: '中秋休息', 
+                start: '2024-09-15', 
+                end: '2024-09-18'
               }
             ]
         });
@@ -31,7 +36,7 @@
       }
     
       #calendar {
-        width: 1000px;
+        width: auto;
         margin: 0 auto;
       }
     
