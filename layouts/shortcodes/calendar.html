@@ -12,21 +12,24 @@ https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       // initialDate: '2023-01-12',
-      navLinks: true, // can click day/week names to navigate views
-      businessHours: true, // display business hours
-      editable: true,
-      selectable: true,
+      // navLinks: true, // can click day/week names to navigate views
+      // businessHours: true, // display business hours
+      // editable: true,
+      // selectable: true,
       events: [
         {
           title: 'Business Lunch',
           start: '2024-09-03T13:00:00',
-          constraint: 'businessHours'
+          constraint: 'businessHours',
+          color: '#257e4a'
+          
         },
         {
-          groupId: 'availableForMeeting',
+          title: 'availableForMeeting',
           start: '2024-09-13T10:00:00',
           end: '2024-09-18T16:00:00',
-          display: 'background'
+          display: 'background',
+          color: 'yellow'
         }
       ]
     });
@@ -45,7 +48,7 @@ https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
   }
 
   #calendar {
-    max-width: 2100px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -53,7 +56,7 @@ https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js
 </head>
 <body>
 
-  <div id='calendar'></div>
+  <div id='calendar' style="width: 100%;"></div>
 
 </body>
 </html>
