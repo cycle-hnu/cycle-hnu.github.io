@@ -9,7 +9,12 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
             // plugins: [dayGridPlugin],
             initialView: 'dayGridMonth',
-            dayMaxEvents: true, 
+            headerToolbar: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'dayGridMonth,listMonth'
+            },
+            businessHours: true, 
             events: [
               { 
                 title: '维也纳出差', 
@@ -41,7 +46,7 @@
       }
     
       #calendar {
-        width: 650px;
+        width: auto;
         margin: 0 auto;
       }
     
