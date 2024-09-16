@@ -8,7 +8,7 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
             // plugins: [dayGridPlugin],
-            initialView: 'listMonth',
+            initialView: 'dayGridMonth',
             headerToolbar: {
               left: 'prev,next today',
               center: 'title',
@@ -31,6 +31,11 @@
                 start: '2024-09-20T08:00:00',
                 end: '2024-09-20T10:00:00'
               },
+              {
+                title: '爬山', 
+                start: '2024-09-16', 
+                end: '2024-09-16'
+              }
             ]
         });
         calendar.render();
