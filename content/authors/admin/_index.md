@@ -15,7 +15,7 @@ role: Leader of the Compilation and Optimization Research Group
 # Organizations/Affiliations
 organizations:
   - name: Hunan University
-    url: 'https://www.hnu.edu.cn/'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include intelligent software systems, with an emphasis on machine learning systems, polyhedral compilers, numerical program analysis, and high-level synthesis.
@@ -62,7 +62,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'jiezhao@hnu.edu.cn'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
