@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **Polyhnu Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Polyhnu Research Group** has been a hub of innovation in intelligent software systems since its founding in 2024. Our research focuses on advancing machine learning systems, polyhedral compilers, numerical program analysis, and high-level synthesis, while also fostering excellence in teaching and practical applications in Artificial Intelligence.
   
   - block: collection
     content:
