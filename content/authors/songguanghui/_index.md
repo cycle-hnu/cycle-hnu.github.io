@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'sheensong@hnu.edu.cn'
+    link: 'mailto:sheensong@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=J0M1TAQAAAAJ

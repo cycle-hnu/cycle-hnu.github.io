@@ -16,9 +16,9 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
-  - 'Laboratory of Science and Technology on Integrated Information System, Institute of Software, Chinese Academy of Sciences'
-  - 'Hunan University'
-  - 'Information Engineering University'
+  - ''
+  - ''
+  - ''
   - 'Corresponding author'
   - 'Corresponding author'
 

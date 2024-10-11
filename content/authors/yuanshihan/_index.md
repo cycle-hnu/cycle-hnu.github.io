@@ -44,7 +44,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yuanshihan516@hnu.edu.cn'
+    link: 'mailto:yuanshihan516@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ

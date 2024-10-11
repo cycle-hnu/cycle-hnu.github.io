@@ -50,7 +50,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'jiezhao@hnu.edu.cn'
+    link: 'mailto:jiezhao@hnu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=9EIFPO4AAAAJ
@@ -64,7 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'jiezhao@hnu.edu.cn'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

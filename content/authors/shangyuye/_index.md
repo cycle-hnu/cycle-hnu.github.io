@@ -47,10 +47,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'shangyuye@hnu.edu.cn'
-  - icon: google-scholar
-    icon_pack: ai
-    link: 
+    link: 'mailto:shangyuye@hnu.edu.cn'
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: 
   - icon: github
     icon_pack: fab
     link: https://github.com/Shirely351
