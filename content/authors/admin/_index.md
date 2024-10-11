@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jie Zhao (赵捷)
+title: Jie Zhao
 
 # Full Name (for SEO)
 first_name: Jie 
