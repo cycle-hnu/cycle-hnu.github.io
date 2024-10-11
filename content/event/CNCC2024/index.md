@@ -4,21 +4,21 @@ title: CNCC 2024
 event: CNCC 2024
 event_url: https://ccf.org.cn/cncc2024
 
-location: 横店圆明新园
+location: 横店
 address:
-  # street: 450 Serra Mall
-  city: Hengdian, Dongyang city, Zhejiang province
-  # region: 
+  street: 圆明新园
+  city: 东阳市
+  region: 横店
   # postcode: 
-  country: China
+  country: 中国
 
-summary: An example event.
-abstract: 'As an important part of chip research and development, the compiler system is of great significance for supporting national strategic needs and improving software competitiveness. Its application in emerging technology fields including artificial intelligence, Internet of Things, blockchain, etc. is becoming more and more extensive. However, there is a relative shortage of practitioners in the field of compiler systems in China. The purpose of recommending this forum is to provide a platform for communication and cooperation for domestic scholars, researchers and engineers, and to promote interdisciplinary cooperation and communication by inviting practitioners in the field to share the latest research results, discuss technical problems, exchange experiences and ideas. At the same time, by discussing the application of compiler systems in cutting-edge fields, it will stimulate the innovative thinking of scholars and practitioners, promote the continuous progress and development of compiler system technology, and promote further innovation in related fields. The forum also hopes to promote the latest compiler system technology and applications to a wider audience, and promote its application and development in education, industry and social life.'
+summary: 编译系统前沿技术与应用.
+abstract: '编译系统作为芯片研发的重要组成部分，对于支持国家战略需求、提升软件竞争力具有重要意义，其在包括人工智能、物联网、区块链等在内的新兴技术领域的应用日益广泛。然而，国内编译系统领域从业人员相对紧缺。推荐该论坛的目的是为国内学者、研究人员和工程师提供了交流和合作的平台，通过邀请领域从业人员分享最新的研究成果、探讨技术难题、交流经验和思想，促进跨学科的合作与交流。同时，通过讨论编译系统在前沿领域的应用落地，激发学者和从业者的创新思维，推动编译系统技术的不断进步和发展，促进相关领域的进一步创新。推荐该论坛还期望可以将最新编译系统的技术与应用推广给更广泛的受众，促进其在教育、工业和和社会生活中的应用和发展.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-24T13:00:00Z'
-date_end: '2024-10-26T15:00:00Z'
+date: '2024-10-24'
+date_end: '2024-10-26'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
