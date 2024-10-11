@@ -13,12 +13,12 @@ authors:
   - Jie Zhao
 # Author notes (optional)
 author_notes:
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
-  - 'State Key Laboratory of Mathematical Engineering and Advanced Computing'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Corresponding author'
 
 date: '2022-09-01T00:00:00Z'
 doi: ''
@@ -33,7 +33,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the 51st International Conference on Parallel Processing*
-publication_short: In *ICPP*
+publication_short: In *ICPP 2022*
 
 abstract: We present an approach to the automatic generation of efficient matrix multiplication code on the latest Sunway processor, which will be employed by the next-generation machine of Sunway TaihuLight, one of the fastest supercomputers on earth. The method allows users to write simple C code and automatically generates high-performance matrix multiplication kernels. It uses polyhedral transformations to implement rapid compute decomposition, data exchanges across memory hierarchy and memory latency hiding. An assembly routine is finally integrated into the generated kernels. While achieving up to 90.14% of the theoretical peak performance, our method surpasses a highly tuned library by 9.44%. Compared with existing techniques, our approach reduces the software development life cycle to generate efficient matrix code from months to seconds. We also take into account batched matrix multiplication and some fusion patterns for deep learning (DL), outperforming the library-based implementations by 1.30 × and 1.67 ×.
 

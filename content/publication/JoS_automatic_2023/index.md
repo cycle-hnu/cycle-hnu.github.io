@@ -13,12 +13,12 @@ authors:
   - Jinchen Xu
 # Author notes (optional)
 author_notes:
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Information Engineering University'
-  - 'Corresponding author'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 
 date: '2023-11-01T00:00:00Z'
 doi: ''
@@ -32,7 +32,7 @@ publishDate: '2023-11-01T00:00:00Z'
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*The Journal of Software"
+publication: "*The Journal of Software*"
 publication_short: ""
 
 abstract: Mixed precision has made many advances in deep learning and precision tuning and optimization. Extensive research shows that mixed precision optimization for stencil computation is challenging. Moreover, the research achievements secured by the polyhedral model in the field of automatic parallelization indicate that the model provides a good mathematical abstraction for loop nesting, on the basis of which loop transformations can be performed. This study designs and implements an automatic mixed precision optimizer for Stencil computation on the basis of polyhedral compilation technology. By performing iterative domain partitioning, data flow analysis, and scheduling tree transformation on the intermediate representation layers, this study implements the source-to-source automatic generation of mixed precision codes for Stencil computation for the first time. The experiments demonstrate that the code after automatic mixed precision optimization can give full play to its parallelism potential and improve the performance of the program by reducing precision redundancy. With high-precision computing as the benchmark, the maximum speedup is 1.76, and the geometric average speedup is 1.15 on the x86 architecture; on the new-generation Sunway architecture, the maximum speedup is 1.64, and the geometric average speedup is 1.20.
