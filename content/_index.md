@@ -60,14 +60,11 @@ sections:
     content:
       title: Latest Publications
       text: ""
-      count: 5
+      count: 3
       filters:
         folders:
           - publication
-        publication_type: 'article-paper'
-        # publication_type: 'article'
-        # publication_type: 'article-paper'
-        # publication_type: 'paper-conference'
+        publication_type: 'paper-conference'
     design:
       view: citation
       columns: '1'
