@@ -1,11 +1,13 @@
 ---
 # Display name
-title: Jie Zhao
+title: Jie Zhao (赵捷)
 
 # Full Name (for SEO)
 first_name: Jie 
 last_name: Zhao
 
+authors:
+  - admin
 # Is this the primary user of the site?
 superuser: true
 
