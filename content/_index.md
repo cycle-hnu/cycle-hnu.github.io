@@ -34,7 +34,7 @@ sections:
       filters:
         author: ''
         category: ''
-        exclude_featured: false
+        exclude_featured: false 
         publication_type: ''
         tag: ''
       offset: 0

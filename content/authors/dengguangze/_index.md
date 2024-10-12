@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Member of the Compilation and Optimization Research Group
+role: Second-year undergraduate
 
 # Organizations/Affiliations
 organizations:

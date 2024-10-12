@@ -12,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Leader of the Compilation and Optimization Research Group
+role: Leader of the CYCLE Lab
 
 # Organizations/Affiliations
 organizations:
