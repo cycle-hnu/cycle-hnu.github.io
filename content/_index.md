@@ -86,9 +86,9 @@ sections:
 ---
 <style>
 .hero-custom-font h1 {
-  font-size: 3em;
+  font-size: 1em;
 }
 .hero-custom-font p {
-  font-size: 1.2em;
+  font-size: 0.2em;
 }
 </style>
