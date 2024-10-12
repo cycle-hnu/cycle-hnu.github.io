@@ -8,13 +8,20 @@ sections:
   - block: hero
     content:
       title: |
-        CYCLE
+        CYCLE Lab
       image:
         filename: poly.png
       text: |
         <br>
       
-        The **Polyhnu Research Group** has been a center of excellence for building intelligent software systems, focusing on machine learning systems, polyhedral compilers, numerical program analysis, and high-level synthesis since its founding in 2024.
+        The CYCLE Lab focuses on advancing research in compilers, systems, and outcomes in computational systems. CYCLE is an abbreviation for **(C)**ompiler Systems **(Y)**ielding for **(C)**omputational Languages and **(E)**xecution Acceleration. This name underscores our commitment to continuous optimization processes aimed at enhancing performance and efficiency across various applications, including deep learning, high-performance computing, and numerical computation, as well as multiple platforms such as CPU, GPU, and NPU. Additionally, CYCLE encompasses several interpretations, including but not limited to:
+
+        -a dynamic, iterative research approach, highlighting the significance of iterative improvement in both system optimization and compiler design;
+        -a synonym for loops, which are fundamental to polyhedral compilation techniques;
+        -a critical performance metric for computer systems.
+
+        Through these dimensions, the CYCLE Lab aims to innovate and lead in the fields of compiler technologies and computational systems.
+        
   
   - block: collection
     content:
