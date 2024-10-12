@@ -3,6 +3,10 @@ title: Jie Zhao participated in CCF HPC China 2024 and be a guest speaker at The
 date: 2024-9-26
 image:
   focal_point: 'top'
+
+date: '2024-10-24'
+date_end: '2024-10-26'
+all_day: true
 ---
 
 <!-- aaaaaaa -->
