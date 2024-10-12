@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
       
-        The CYCLE Lab focuses on advancing research in compilers, systems, and outcomes in computational systems. CYCLE is an abbreviation for **(C)**ompiler Systems **(Y)**ielding for **(C)**omputational Languages and **(E)**xecution Acceleration. This name underscores our commitment to continuous optimization processes aimed at enhancing performance and efficiency across various applications, including deep learning, high-performance computing, and numerical computation, as well as multiple platforms such as CPU, GPU, and NPU. Additionally, CYCLE encompasses several interpretations, including but not limited to:
+        The CYCLE Lab focuses on advancing research in compilers, systems, and outcomes in computational systems. CYCLE is an abbreviation for **(C)**ompiler Systems **(Y)**ielding for **(C)**omputational **(L)**anguages and **(E)**xecution Acceleration. This name underscores our commitment to continuous optimization processes aimed at enhancing performance and efficiency across various applications, including deep learning, high-performance computing, and numerical computation, as well as multiple platforms such as CPU, GPU, and NPU. Additionally, CYCLE encompasses several interpretations, including but not limited to:
 
         -a dynamic, iterative research approach, highlighting the significance of iterative improvement in both system optimization and compiler design;
         -a synonym for loops, which are fundamental to polyhedral compilation techniques;
