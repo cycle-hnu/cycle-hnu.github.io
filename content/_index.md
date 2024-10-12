@@ -4,6 +4,15 @@ title:
 date: 2022-10-24
 type: landing
 
+<style>
+.hero-custom-font h1 {
+font-size: 3em;
+}
+.hero-custom-font p {
+font-size: 1.2em;
+}
+</style>
+
 sections:
   - block: hero
     content:
@@ -21,7 +30,7 @@ sections:
         -a critical performance metric for computer systems.
 
         Through these dimensions, the CYCLE Lab aims to innovate and lead in the fields of compiler technologies and computational systems.
-        
+      css_class: hero-custom-font
   
   - block: collection
     content:
