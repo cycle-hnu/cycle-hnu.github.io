@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Polyhnu
-        Research Group
+        CYCLE
       image:
         filename: poly.png
       text: |
