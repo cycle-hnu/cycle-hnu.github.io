@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Fourth-year undergraduate
+role: 2025 cohort Master's student
 
 # Organizations/Affiliations
 organizations:
@@ -60,7 +60,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Undergraduate
+  - Master
 ---
 
 Xu Ji is a member of CYCLE at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.

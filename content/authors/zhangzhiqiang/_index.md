@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 2025 direct doctoral candidates
+role: 2025 direct doctoral candidate
 
 # Organizations/Affiliations
 organizations:
