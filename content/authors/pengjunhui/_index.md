@@ -66,4 +66,4 @@ user_groups:
   - Master
 ---
 
-Junhui Peng is a member of the compiler optimization team at the College of Information Science and Engineering, Hunan University, and a first-year graduate student. His research interests include operator automatic generation and high-level synthesis, with a current focus on operator automatic generation for neuromorphic chips.
+Junhui Peng is a member of CYCLE at the College of Information Science and Engineering, Hunan University, and a first-year graduate student. His research interests include operator automatic generation and high-level synthesis, with a current focus on operator automatic generation for neuromorphic chips.

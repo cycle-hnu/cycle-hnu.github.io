@@ -69,5 +69,5 @@ user_groups:
   - Ph.D
 ---
 
-Yuye Shang is information science and engineering college of hunan university compiler optimization team member,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.
+Yuye Shang is information science and engineering college of hunan university CYCLE members,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.
 

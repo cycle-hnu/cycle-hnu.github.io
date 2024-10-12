@@ -63,5 +63,5 @@ user_groups:
   - Undergraduate
 ---
 
-Xu Ji is a member of the Information Science Compilation Research Group at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.
+Xu Ji is a member of CYCLE at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.
 

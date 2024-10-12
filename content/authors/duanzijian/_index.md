@@ -66,5 +66,5 @@ user_groups:
   - Master
 ---
 
-Zijian Duan is information science and engineering college of Hunan University compiler optimization team members, graduate student in grade one. His research interests include deep learning, fully homomorphic encryption compiler and llm.
+Zijian Duan is information science and engineering college of Hunan University CYCLE members, graduate student in grade one. His research interests include deep learning, fully homomorphic encryption compiler and llm.
 

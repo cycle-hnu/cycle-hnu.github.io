@@ -66,5 +66,5 @@ user_groups:
   - Master
 ---
 
-Ke Yang is Information Science and Engineering College of Hunan University compiler optimization team member. And he obtained a Bachelor's degree from the Computer Science of school at Hunan University Of Technology and Business. His research interests include machine learning, high-performance compiling optimization,current research in Neuromorphic Chips and AI Operator Generation.
+Ke Yang is Information Science and Engineering College of Hunan University CYCLE member. And he obtained a Bachelor's degree from the Computer Science of school at Hunan University Of Technology and Business. His research interests include machine learning, high-performance compiling optimization,current research in Neuromorphic Chips and AI Operator Generation.
 

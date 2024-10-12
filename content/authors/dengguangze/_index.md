@@ -63,5 +63,5 @@ user_groups:
   - Undergraduate
 ---
 
-Guangze Deng is a member of the Compiler Optimization Team at the College of Information Science and Engineering, Hunan University, and a second-year undergraduate student. His research interests include numerical program analysis and the repair of floating-point expressions.
+Guangze Deng is a member of CYCLE at the College of Information Science and Engineering, Hunan University, and a second-year undergraduate student. His research interests include numerical program analysis and the repair of floating-point expressions.
 

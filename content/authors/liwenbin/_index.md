@@ -63,5 +63,5 @@ user_groups:
   - Undergraduate
 ---
 
-LiWen Bin is information science and engineering college of hunan university complier optimization team members, and is a second-year undergraduate. His research interests include machine learning, fully homomorphic encryption algorithms. Currently studying the acceleration of FHE.
+LiWen Bin is information science and engineering college of hunan university CYCLE members, and is a second-year undergraduate. His research interests include machine learning, fully homomorphic encryption algorithms. Currently studying the acceleration of FHE.
 

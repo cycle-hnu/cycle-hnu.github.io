@@ -62,5 +62,5 @@ user_groups:
   - Undergraduate
 ---
 
-Ruining Cao is a third-year undergraduate student at Hunan University and a member of the compiler optimization team. Her research focuses on image processing optimization, where she explores ways to enhance the efficiency and performance of image processing algorithms. Through this work, she aims to contribute to the development of more optimized and scalable solutions in the field of image processing.
+Ruining Cao is a third-year undergraduate student at Hunan University and a member of CYCLE. Her research focuses on image processing optimization, where she explores ways to enhance the efficiency and performance of image processing algorithms. Through this work, she aims to contribute to the development of more optimized and scalable solutions in the field of image processing.
 
