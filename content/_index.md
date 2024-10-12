@@ -4,15 +4,6 @@ title:
 date: 2022-10-24
 type: landing
 
-<style>
-.hero-custom-font h1 {
-font-size: 3em;
-}
-.hero-custom-font p {
-font-size: 1.2em;
-}
-</style>
-
 sections:
   - block: hero
     content:
@@ -93,3 +84,11 @@ sections:
     design:
       columns: '1'
 ---
+<style>
+.hero-custom-font h1 {
+  font-size: 3em;
+}
+.hero-custom-font p {
+  font-size: 1.2em;
+}
+</style>
