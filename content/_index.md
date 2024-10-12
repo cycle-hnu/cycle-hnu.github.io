@@ -91,7 +91,9 @@ sections:
       title: 
       subtitle: ''
       text: |
-        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5gytaoep74h&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;w=300&amp;h=300" async="async"></script>
+        <div style="width: 300px; height: 300px; background-color: #ffffff; display: flex; justify-content: center; align-items: center; margin: 0 auto;">
+          <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5gytaoep74h&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;w=300&amp;h=300" async="async"></script>
+        </div>
     design:
       columns: '1'
 
