@@ -13,15 +13,7 @@ sections:
         filename: poly.png
       text: |
         <br>
-      
-        The CYCLE Lab focuses on advancing research in compilers, systems, and outcomes in computational systems. CYCLE is an abbreviation for **(C)**ompiler Systems **(Y)**ielding for **(C)**omputational **(L)**anguages and **(E)**xecution Acceleration. This name underscores our commitment to continuous optimization processes aimed at enhancing performance and efficiency across various applications, including deep learning, high-performance computing, and numerical computation, as well as multiple platforms such as CPU, GPU, and NPU. Additionally, CYCLE encompasses several interpretations, including but not limited to:
-
-        -a dynamic, iterative research approach, highlighting the significance of iterative improvement in both system optimization and compiler design;
-        -a synonym for loops, which are fundamental to polyhedral compilation techniques;
-        -a critical performance metric for computer systems.
-
-        Through these dimensions, the CYCLE Lab aims to innovate and lead in the fields of compiler technologies and computational systems.
-      css_class: hero-custom-font
+        The CYCLE Lab focuses on advancing research in compilers, programming languages, and outcomes in computational systems.
   
   - block: collection
     content:
@@ -84,11 +76,3 @@ sections:
     design:
       columns: '1'
 ---
-<style>
-.hero-custom-font h1 {
-  font-size: 1em !important;
-}
-.hero-custom-font p {
-  font-size: 0.2em !important;
-}
-</style>
