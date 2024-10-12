@@ -17,9 +17,9 @@ abstract: '编译系统作为芯片研发的重要组成部分，对于支持国
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-10-24'
-date_end: '2024-10-26'
-all_day: true
+date: '2024-10-24T08:00:00Z'
+date_end: '2024-10-26T18:00:00Z'
+all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'

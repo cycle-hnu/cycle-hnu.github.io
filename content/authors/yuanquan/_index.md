@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Zhiqiang Zhang (张志强)
+title: Quan Yuan (袁泉)
 
 # Full name (for SEO)
-first_name: Zhiqiang 
-last_name: Zhang
+first_name: Quan 
+last_name: Yuan
 
 # Username (this should match the folder name)
 authors:
-  - zhangzhiqiang
+  - yuanquan
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,11 +22,11 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed machine learning and high-performance code optimization.
+bio: My research interests include compiled integrated circuit design and compilation optimization.
 
 interests:
-  - LLVM/MLIR Based Compiler Optimization
-  - LLM Infer Acceleration
+  - Compiled integrated circuit
+  - Compilation optimization
 
 education:
   courses:
@@ -39,15 +39,15 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: ''
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:2632258946@qq.com'
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: 
   - icon: github
     icon_pack: fab
-    link: 'https://github.com/GithubXxz'
+    link: 'https://github.com/kcabkooltonod'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,5 +63,5 @@ user_groups:
   - Ph.D
 ---
 
-Zhiqiang Zhang is a 4th-year undergraduate student at the University of Electronic Science and Technology of China (UESTC) and a ML algorithms and systems research intern at ByteDance (Top seed). He was previously a LLVM compiler optimization intern at Nvidia.He is expected to join the School of Information Science and Engineering at Hunan University CYCLE Lab in 2025 to pursue PhD degree, supervised by Young Prof. Jie Zhao. His research interests include LLVM/MLIR based compiler optimization, LLM infer acceleration, and currently researching in PIM arch compiler optimization to accelerate LLM inference.
+Quan Yuan is a 4th-year undergraduate student at the University of Electronic Science and Technology of China (UESTC). He is expected to join the School of Information Science and Engineering at Hunan University CYCLE Lab in 2025 to pursue PhD degree, supervised by Young Prof. Jie Zhao. His research interest is based on compiled integrated circuit design and compilation optimization. In addition, he also has in depth learning in machine learning and deep learning. He is currently learning the knowledge of compilers and computer architecture.
 
