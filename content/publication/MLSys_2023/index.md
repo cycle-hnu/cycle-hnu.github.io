@@ -56,7 +56,7 @@ publication_short: In *MLSys 2023*
 abstract: As emerging applications are rapidly moving to accelerators, a greatdeal of research has been proposed to improve the performance of the accelerators. For the AI applications, fruitful software-driven research has been focused on proposing new programming languages, new kernel fusion heuristics,new optimization tuning approaches, and new software execution engines. However, how to leverage classical compiler optimizations to generate efficient code is an overlooked aspect of performance. In this paper, we propose a whole-program analysis and optimization compiler framework, SIRIUS, to uniformly model the host and kernel computations in a unified polyhedral representation and,further, seek maximal fusion opportunities from the global view so that the fused kernel can benefit from classical optimizations. Evaluations over representative DNN models demonstrate that SIRIUS can achieve up to 11.98x speedup over TensorRT, and 154.84x speedup over TensorFlow. In particular, for BERT, SIRIUS can achieve 1.46x speedup over TensorRT.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In *Proceedings of Machine Learning and Systems (MLSys 2023)*
 
 tags: []
 

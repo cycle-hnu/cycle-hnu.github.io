@@ -52,7 +52,7 @@ publication_short: In *PLDI 2021*
 abstract: Existing tensor compilers have proven their effectiveness in deploying deep neural networks on general-purpose hardware like CPU and GPU, but optimizing for neural processing units (NPUs) is still challenging due to the heterogeneous compute units and complicated memory hierarchy.In this paper, we present AKG, a tensor compiler for NPUs. AKG first lowers the tensor expression language to a polyhedral representation, which is used to automate the memory management of NPUs. Unlike existing approaches that resort to manually written schedules, AKG leverages polyhedral schedulers to perform a much wider class of transformations, and extends the semantics of the polyhedral representation to combine complex tiling techniques and hierarchical fusion strategies. We also implement the domain-specific optimization of convolution in AKG. Moreover, to achieve the optimal performance, we introduce complementary optimizations in code generation, which is followed by an auto-tuner.We conduct extensive experiments on benchmarks ranging from single operators to end-to-end networks. The experimental results show that AKG can obtain superior performance to both manual scheduling approaches and vendor provided libraries. We believe AKG will cast a light on the follow-up compiler works on NPUs.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In *Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI 2021)*
 
 tags: []
 

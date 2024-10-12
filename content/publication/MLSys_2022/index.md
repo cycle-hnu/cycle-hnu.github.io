@@ -46,7 +46,7 @@ publication_short: In *MLSys 2022*
 abstract: We study fusion for deep neural networks (DNNs) in a just-in-time (JIT) compilation framework Apollo. It considers both memory- and compute-bound tensor operators for fusion, and integrates graph-level node grouping and operator-level loop fusion closely, widening the fusion search space. Apollo enables the upward feedback from the downstream loop optimizer, enforcing the graph engine to regenerate partition patterns amenable to the downstream pass and thus resolving the scalability issue. Besides data locality, Apollo also exploits the parallelism between independent tensor operators, further improving the performance of DNN workloads. Experimental results on training workloads show that Apollo outperforms TensorFlow and XLA by 1.86× and 1.37× on a single GPU, and 1.96× and 1.18× on multiple GPUs. Apollo also improves the performance of a vendor-provided DNN framework by 19.7% on a domain-specific accelerator. In addition, the results of inference workloads demonstrate the general applicability of our fusion framework.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In *Proceedings of Machine Learning and Systems (MLSys 2022)*
 
 tags: []
 
