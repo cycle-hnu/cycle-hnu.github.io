@@ -12,7 +12,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Leader of the CYCLE Lab
+role: Leader of the CYCLE
 
 # Organizations/Affiliations
 organizations:
