@@ -13,7 +13,7 @@ sections:
         filename: poly.png
       text: |
         <br>
-        The CYCLE Lab focuses on advancing research in compilers, programming languages, and outcomes in computational systems.
+        The CYCLE Lab focuses on advancing research in compilers, programming languages, and outcomes in computational systems. CYCLE is an abbreviation for <strong>(C)</strong>ompiler Systems <strong>(Y)</strong>ielding for <strong>(C)</strong>omputational <strong>(L)</strong>anguages and <strong>(E)</strong>xecution Acceleration. 
   
   - block: collection
     content:
