@@ -85,10 +85,10 @@ sections:
       columns: '1'
 ---
 <style>
-.hero-custom-font .section-title {
-  font-size: 1em;
+.hero-custom-font h1 {
+  font-size: 1em !important;
 }
-.hero-custom-font .section-content {
-  font-size: 0.2em;
+.hero-custom-font p {
+  font-size: 0.2em !important;
 }
 </style>
