@@ -95,5 +95,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['5px', '0', '5px', '0']
 ---
