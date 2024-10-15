@@ -28,6 +28,7 @@ interests:
   - Floating-point Error Detection
   - Program Analysis
   - Machine Learning Compilers
+  - LLM Distributed Training Acceleration
 
 education:
   courses:
@@ -70,7 +71,7 @@ user_groups:
   - Ph.D
 ---
 
-[Zuoyan Zhang](https://zuoyanzhang.github.io) is a first-year PhD student in the Information Science and Engineering College at Hunan University, where he is a member of the Compiler Optimization Team. He is currently under the supervision of Prof. Jie Zhao. Zhang completed his MEng degree in June 2024 from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University, under the guidance of Prof. Shaozhong Guo. His research interests encompass machine learning, high-performance compiling optimization, and he is currently focusing on research related to Prectuner optimization. His work in the field has garnered recognition through conferences such as ASE and ISSTA.
+[Zuoyan Zhang](https://zuoyanzhang.github.io) is a first-year PhD student at Hunan University under the supervisor Prof. Jie Zhao, where he is a member of the CYCLE Lab. Zhang got his MEng degree from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University under the supervisor Prof. Shaozhong Guo in June 2024. His research interests span machine learning compilers and program analysis, with a particular focus on floating-point program error detection and automatic repair, as well as distributed parallel acceleration for large language model training. His research has been recognized with ASE, ISSTA.
 
 
 ### Publications
