@@ -4,12 +4,12 @@ title: CNCC 2024
 event: CNCC 2024
 event_url: https://ccf.org.cn/cncc2024
 
-location: 横店
+location: 园明新园，横店
 address:
-  street: 圆明新园
+  street: 圆明路333号
   city: 东阳市
   region: 浙江省
-  # postcode: 
+  postcode: '322100'
   country: 中国
 
 summary: 编译系统前沿技术与应用.
