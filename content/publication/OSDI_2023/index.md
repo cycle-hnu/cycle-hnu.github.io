@@ -16,9 +16,9 @@ authors:
 
 # Author notes (optional)
 author_notes:
+  - 'Corresponding author'
   - ''
-  - ''
-  - ''
+  - 'Corresponding author'
   - ''
   - ''
   - ''

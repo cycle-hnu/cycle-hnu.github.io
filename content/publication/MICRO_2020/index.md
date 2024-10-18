@@ -10,8 +10,8 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - ''
-  - ''
+  - 'Corresponding author'
+  - 'Corresponding author'
 
 
 date: '2020-10-17T00:00:00Z'

@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 2025 cohort Master's student
+role: Master student (start from 2025)
 
 # Organizations/Affiliations
 organizations:

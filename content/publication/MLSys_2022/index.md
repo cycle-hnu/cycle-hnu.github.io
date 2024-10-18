@@ -17,16 +17,16 @@ authors:
   - Xuefeng Jin
 # Author notes (optional)
 author_notes:
+  - 'Corresponding author'
   - ''
   - ''
   - ''
   - ''
+  - 'Corresponding author'
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - 'Corresponding author'
 
 date: '2023-11-01T00:00:00Z'
 doi: ''

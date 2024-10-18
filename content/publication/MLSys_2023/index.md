@@ -30,7 +30,7 @@ author_notes:
   - ''
   - ''
   - ''
-  - ''
+  - 'Corresponding author'
   - ''
   - ''
   - ''

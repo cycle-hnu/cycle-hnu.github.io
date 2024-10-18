@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Third-year undergraduate
+role: Undergraduate student (start from 2022)
 
 # Organizations/Affiliations
 organizations:

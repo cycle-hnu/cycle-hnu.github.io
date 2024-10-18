@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Second-year undergraduate
+role: Undergraduate student (start from 2023)
 
 # Organizations/Affiliations
 organizations:

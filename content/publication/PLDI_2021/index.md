@@ -20,7 +20,7 @@ authors:
   - Xuefeng Jin
 # Author notes (optional)
 author_notes:
-  - ''
+  - 'Corresponding author'
   - ''
   - ''
   - ''

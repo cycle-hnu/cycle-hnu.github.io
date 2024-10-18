@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: First-year Master student
+role: Master student (start from 2024)
 
 # Organizations/Affiliations
 organizations:

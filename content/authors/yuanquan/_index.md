@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 2025 direct doctoral candidate
+role: PhD student (start from 2025)
 
 # Organizations/Affiliations
 organizations:
