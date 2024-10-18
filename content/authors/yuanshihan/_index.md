@@ -66,7 +66,7 @@ user_groups:
   - Master
 ---
 
-Shihan Yuan is information science and engineering college of hunan university CYCLE members, graduate student in grade one.Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
+Shihan Yuan is information science and engineering college of Hunan University CYCLE members, graduate student in grade one. Her research interests include machine learning, high-performance compiling optimization, current research in learning Prectuner related optimization.
 
 
 

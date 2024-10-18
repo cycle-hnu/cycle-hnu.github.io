@@ -63,5 +63,5 @@ user_groups:
   - Master
 ---
 
-Xu Ji is a member of CYCLE at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.
+Ji Xu is a member of CYCLE at Hunan University and currently a senior student. The research areas of interest are deep learning and large model accelerated inference and training.
 

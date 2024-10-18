@@ -20,7 +20,7 @@ organizations:
     url: https://www.hnu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: CYCLE Lab
+bio: CYCLE is an abbreviation for Compiler Systems Yielding for Computational Languages and Execution Acceleration.
 
 interests:
   - machine learning systems
