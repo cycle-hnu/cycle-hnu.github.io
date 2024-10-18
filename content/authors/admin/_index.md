@@ -20,7 +20,7 @@ organizations:
     url: https://www.hnu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include intelligent software systems, with an emphasis on machine learning systems, polyhedral compilers, numerical program analysis, and high-level synthesis.
+bio: Compiler Systems Yielding for Computational Languages and Execution Acceleration.
 
 interests:
   - machine learning systems
