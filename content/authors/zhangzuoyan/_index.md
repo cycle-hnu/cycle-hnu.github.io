@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests span programming languages and software engineering
+bio: My research interests span programming languages and software engineering.
 
 interests:
   - Floating-point Error Detection
