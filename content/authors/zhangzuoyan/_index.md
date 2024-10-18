@@ -68,7 +68,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D
+  - PhD
 ---
 
 [Zuoyan Zhang](https://zuoyanzhang.github.io) is a first-year PhD student at Hunan University under the supervisor Prof. Jie Zhao, where he is a member of the CYCLE Lab. Zhang got his MEng degree from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University under the supervisor Prof. Shaozhong Guo in June 2024. His research interests span machine learning compilers and program analysis, with a particular focus on floating-point program error detection and automatic repair, as well as distributed parallel acceleration for large language model training. His research has been recognized with ASE, ISSTA.

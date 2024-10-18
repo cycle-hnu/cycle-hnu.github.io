@@ -66,7 +66,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D
+  - PhD
 ---
 
 Yuye Shang is information science and engineering college of hunan university CYCLE members,currently a first-year PhD student. Her research interests include Computer Graphics and compiler optimizations.

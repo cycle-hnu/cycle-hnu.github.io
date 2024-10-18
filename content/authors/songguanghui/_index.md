@@ -66,7 +66,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D
+  - PhD
 ---
 
 [Guanghui Song](https://sheensong.top/academic/) is a Ph.D. student at Hunan University, under the supervision of Prof. Jie Zhao. He previously held the position of AI compiler development engineer at Li Auto Inc. from July 2023 to August 2024. Guanghui obtained his Academic Master Degree in Computer Science and Technology from the State Key Laboratory of Mathematical Engineering and Advanced Computing at Information Engineering University. His research interests lie in advanced compilation techniques and high performance computing, with a particular emphasis on polyhedral compilation, mixed-precision computational acceleration, and distributed parallel acceleration for large language models. His contributions to the field have been acknowledged by prestigious conferences and journals, including PPoPP, ASE, and the Journal of Software.

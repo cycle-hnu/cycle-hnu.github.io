@@ -15,7 +15,7 @@ sections:
           - Professor
           - Grad Students
           - Administration
-          - Ph.D
+          - PhD
           - Master
           - Undergraduate
       sort_by: Params.last_name
