@@ -63,5 +63,5 @@ user_groups:
   - PhD
 ---
 
-Zhiqiang Zhang is a 4th-year undergraduate student at the University of Electronic Science and Technology of China (UESTC) and a ML algorithms and systems research intern at ByteDance (Top seed). He was previously a LLVM compiler optimization intern at Nvidia.He is expected to join the School of Information Science and Engineering at Hunan University CYCLE Lab in 2025 to pursue PhD degree, supervised by Young Prof. Jie Zhao. His research interests include LLVM/MLIR based compiler optimization, LLM infer acceleration, and currently researching in PIM arch compiler optimization to accelerate LLM inference.
+Zhiqiang Zhang is a 4th-year undergraduate student at the University of Electronic Science and Technology of China (UESTC) and a ML algorithms and systems research intern at ByteDance (Top seed). He was previously a LLVM compiler optimization intern at Nvidia. He is expected to join the School of Information Science and Engineering at Hunan University CYCLE Lab in 2025 to pursue PhD degree, supervised by Young Prof. Jie Zhao. His research interests include LLVM/MLIR based compiler optimization, LLM infer acceleration, and currently researching in PIM arch compiler optimization to accelerate LLM inference.
 
