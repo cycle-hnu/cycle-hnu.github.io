@@ -20,7 +20,7 @@ organizations:
     url: https://www.hnu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Compiler Systems Yielding for Computational Languages and Execution Acceleration.
+bio: CYCLE Lab
 
 interests:
   - machine learning systems
